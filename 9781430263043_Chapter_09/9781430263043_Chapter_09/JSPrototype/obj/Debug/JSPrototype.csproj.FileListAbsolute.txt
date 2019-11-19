@@ -1,5 +1,6 @@
-E:\Bipin\jQuery Book\9781430263043_Chapter_09\JSPrototype\bin\JSPrototype.dll.config
-E:\Bipin\jQuery Book\9781430263043_Chapter_09\JSPrototype\bin\JSPrototype.dll
-E:\Bipin\jQuery Book\9781430263043_Chapter_09\JSPrototype\bin\JSPrototype.pdb
-E:\Bipin\jQuery Book\9781430263043_Chapter_09\JSPrototype\obj\Debug\JSPrototype.dll
-E:\Bipin\jQuery Book\9781430263043_Chapter_09\JSPrototype\obj\Debug\JSPrototype.pdb
+C:\WagnerGithub\apress\apress-beg-jquery-2-for-asp.net-devs\9781430263043_Chapter_09\9781430263043_Chapter_09\JSPrototype\bin\JSPrototype.dll.config
+C:\WagnerGithub\apress\apress-beg-jquery-2-for-asp.net-devs\9781430263043_Chapter_09\9781430263043_Chapter_09\JSPrototype\bin\JSPrototype.dll
+C:\WagnerGithub\apress\apress-beg-jquery-2-for-asp.net-devs\9781430263043_Chapter_09\9781430263043_Chapter_09\JSPrototype\bin\JSPrototype.pdb
+C:\WagnerGithub\apress\apress-beg-jquery-2-for-asp.net-devs\9781430263043_Chapter_09\9781430263043_Chapter_09\JSPrototype\obj\Debug\JSPrototype.csprojAssemblyReference.cache
+C:\WagnerGithub\apress\apress-beg-jquery-2-for-asp.net-devs\9781430263043_Chapter_09\9781430263043_Chapter_09\JSPrototype\obj\Debug\JSPrototype.dll
+C:\WagnerGithub\apress\apress-beg-jquery-2-for-asp.net-devs\9781430263043_Chapter_09\9781430263043_Chapter_09\JSPrototype\obj\Debug\JSPrototype.pdb

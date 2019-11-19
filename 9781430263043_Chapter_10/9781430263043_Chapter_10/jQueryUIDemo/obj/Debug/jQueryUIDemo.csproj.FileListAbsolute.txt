@@ -1,10 +1,11 @@
-E:\Bipin\jQuery Book\9781430263043_Chapter_10\jQueryUIDemo\bin\jQueryUIDemo.dll.config
-E:\Bipin\jQuery Book\9781430263043_Chapter_10\jQueryUIDemo\bin\jQueryUIDemo.dll
-E:\Bipin\jQuery Book\9781430263043_Chapter_10\jQueryUIDemo\bin\jQueryUIDemo.pdb
-E:\Bipin\jQuery Book\9781430263043_Chapter_10\jQueryUIDemo\bin\EntityFramework.dll
-E:\Bipin\jQuery Book\9781430263043_Chapter_10\jQueryUIDemo\bin\EntityFramework.SqlServer.dll
-E:\Bipin\jQuery Book\9781430263043_Chapter_10\jQueryUIDemo\bin\EntityFramework.xml
-E:\Bipin\jQuery Book\9781430263043_Chapter_10\jQueryUIDemo\bin\EntityFramework.SqlServer.xml
-E:\Bipin\jQuery Book\9781430263043_Chapter_10\jQueryUIDemo\obj\Debug\jQueryUIDemo.dll
-E:\Bipin\jQuery Book\9781430263043_Chapter_10\jQueryUIDemo\obj\Debug\jQueryUIDemo.pdb
-E:\Bipin\jQuery Book\9781430263043_Chapter_10\jQueryUIDemo\obj\Debug\jQueryUIDemo.csprojResolveAssemblyReference.cache
+C:\WagnerGithub\apress\apress-beg-jquery-2-for-asp.net-devs\9781430263043_Chapter_10\9781430263043_Chapter_10\jQueryUIDemo\bin\jQueryUIDemo.dll.config
+C:\WagnerGithub\apress\apress-beg-jquery-2-for-asp.net-devs\9781430263043_Chapter_10\9781430263043_Chapter_10\jQueryUIDemo\bin\jQueryUIDemo.dll
+C:\WagnerGithub\apress\apress-beg-jquery-2-for-asp.net-devs\9781430263043_Chapter_10\9781430263043_Chapter_10\jQueryUIDemo\bin\jQueryUIDemo.pdb
+C:\WagnerGithub\apress\apress-beg-jquery-2-for-asp.net-devs\9781430263043_Chapter_10\9781430263043_Chapter_10\jQueryUIDemo\bin\EntityFramework.dll
+C:\WagnerGithub\apress\apress-beg-jquery-2-for-asp.net-devs\9781430263043_Chapter_10\9781430263043_Chapter_10\jQueryUIDemo\bin\EntityFramework.SqlServer.dll
+C:\WagnerGithub\apress\apress-beg-jquery-2-for-asp.net-devs\9781430263043_Chapter_10\9781430263043_Chapter_10\jQueryUIDemo\bin\EntityFramework.xml
+C:\WagnerGithub\apress\apress-beg-jquery-2-for-asp.net-devs\9781430263043_Chapter_10\9781430263043_Chapter_10\jQueryUIDemo\bin\EntityFramework.SqlServer.xml
+C:\WagnerGithub\apress\apress-beg-jquery-2-for-asp.net-devs\9781430263043_Chapter_10\9781430263043_Chapter_10\jQueryUIDemo\obj\Debug\jQueryUIDemo.csprojAssemblyReference.cache
+C:\WagnerGithub\apress\apress-beg-jquery-2-for-asp.net-devs\9781430263043_Chapter_10\9781430263043_Chapter_10\jQueryUIDemo\obj\Debug\jQueryUIDemo.csproj.CopyComplete
+C:\WagnerGithub\apress\apress-beg-jquery-2-for-asp.net-devs\9781430263043_Chapter_10\9781430263043_Chapter_10\jQueryUIDemo\obj\Debug\jQueryUIDemo.dll
+C:\WagnerGithub\apress\apress-beg-jquery-2-for-asp.net-devs\9781430263043_Chapter_10\9781430263043_Chapter_10\jQueryUIDemo\obj\Debug\jQueryUIDemo.pdb

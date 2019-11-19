@@ -1,5 +1,5 @@
-E:\Bipin\jQuery Book\9781430263043_Chapter_09\SamplePlugin\bin\SamplePlugin.dll.config
-E:\Bipin\jQuery Book\9781430263043_Chapter_09\SamplePlugin\bin\SamplePlugin.dll
-E:\Bipin\jQuery Book\9781430263043_Chapter_09\SamplePlugin\bin\SamplePlugin.pdb
-E:\Bipin\jQuery Book\9781430263043_Chapter_09\SamplePlugin\obj\Debug\SamplePlugin.dll
-E:\Bipin\jQuery Book\9781430263043_Chapter_09\SamplePlugin\obj\Debug\SamplePlugin.pdb
+C:\WagnerGithub\apress\apress-beg-jquery-2-for-asp.net-devs\9781430263043_Chapter_09\9781430263043_Chapter_09\SamplePlugin\bin\SamplePlugin.dll.config
+C:\WagnerGithub\apress\apress-beg-jquery-2-for-asp.net-devs\9781430263043_Chapter_09\9781430263043_Chapter_09\SamplePlugin\bin\SamplePlugin.dll
+C:\WagnerGithub\apress\apress-beg-jquery-2-for-asp.net-devs\9781430263043_Chapter_09\9781430263043_Chapter_09\SamplePlugin\bin\SamplePlugin.pdb
+C:\WagnerGithub\apress\apress-beg-jquery-2-for-asp.net-devs\9781430263043_Chapter_09\9781430263043_Chapter_09\SamplePlugin\obj\Debug\SamplePlugin.dll
+C:\WagnerGithub\apress\apress-beg-jquery-2-for-asp.net-devs\9781430263043_Chapter_09\9781430263043_Chapter_09\SamplePlugin\obj\Debug\SamplePlugin.pdb

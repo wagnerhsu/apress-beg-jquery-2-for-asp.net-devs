@@ -1,5 +1,6 @@
-E:\Bipin\jQuery Book\9781430263043_Chapter_09\PopupAdPlugin\bin\PopupAdPlugin.dll.config
-E:\Bipin\jQuery Book\9781430263043_Chapter_09\PopupAdPlugin\bin\PopupAdPlugin.dll
-E:\Bipin\jQuery Book\9781430263043_Chapter_09\PopupAdPlugin\bin\PopupAdPlugin.pdb
-E:\Bipin\jQuery Book\9781430263043_Chapter_09\PopupAdPlugin\obj\Debug\PopupAdPlugin.dll
-E:\Bipin\jQuery Book\9781430263043_Chapter_09\PopupAdPlugin\obj\Debug\PopupAdPlugin.pdb
+C:\WagnerGithub\apress\apress-beg-jquery-2-for-asp.net-devs\9781430263043_Chapter_09\9781430263043_Chapter_09\PopupAdPlugin\bin\PopupAdPlugin.dll.config
+C:\WagnerGithub\apress\apress-beg-jquery-2-for-asp.net-devs\9781430263043_Chapter_09\9781430263043_Chapter_09\PopupAdPlugin\bin\PopupAdPlugin.dll
+C:\WagnerGithub\apress\apress-beg-jquery-2-for-asp.net-devs\9781430263043_Chapter_09\9781430263043_Chapter_09\PopupAdPlugin\bin\PopupAdPlugin.pdb
+C:\WagnerGithub\apress\apress-beg-jquery-2-for-asp.net-devs\9781430263043_Chapter_09\9781430263043_Chapter_09\PopupAdPlugin\obj\Debug\PopupAdPlugin.csprojAssemblyReference.cache
+C:\WagnerGithub\apress\apress-beg-jquery-2-for-asp.net-devs\9781430263043_Chapter_09\9781430263043_Chapter_09\PopupAdPlugin\obj\Debug\PopupAdPlugin.dll
+C:\WagnerGithub\apress\apress-beg-jquery-2-for-asp.net-devs\9781430263043_Chapter_09\9781430263043_Chapter_09\PopupAdPlugin\obj\Debug\PopupAdPlugin.pdb
