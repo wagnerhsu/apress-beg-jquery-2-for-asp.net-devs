@@ -1,0 +1,25 @@
+﻿
+@{
+    ViewData["Title"] = "IndexSimpleType";
+}
+@section Scripts
+{
+    <script src="~/js/Home/IndexSimpleType.js"></script>
+}
+<h1>IndexSimpleType</h1>
+
+<div class="container">
+    <form id="form1">
+        <span id="Label1">Enter Temperature : </span>
+        <br />
+        <input type="text" id="TextBox1" />
+        <select id="DropDownList1">
+            <option value="C">Celsius</option>
+            <option value="F">Fehrenheit</option>
+        </select>
+        <br />
+        <input id="Button1" type="button" value="Convert" />
+        <br />
+        <span id="lblResult" style="font-weight:bold;color:red"></span>
+    </form>
+</div>

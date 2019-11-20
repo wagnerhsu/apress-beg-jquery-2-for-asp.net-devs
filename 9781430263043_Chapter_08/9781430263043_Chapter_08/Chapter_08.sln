@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29509.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CallingActionMethodUsingAjax", "CallingActionMethodUsingAjax\CallingActionMethodUsingAjax.csproj", "{AC6A77D9-1E1D-48B7-8C75-19441EED2F90}"
 EndProject
@@ -14,6 +14,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CallingWebAPIUsingAjax", "CallingWebAPIUsingAjax\CallingWebAPIUsingAjax.csproj", "{3B52BCCF-B66A-4937-B729-281C549990BF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSONBasics", "JSONBasics\JSONBasics.csproj", "{81150737-9D52-4F8E-89E3-1A8B3630BE71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AjaxWithAspNetCore", "AjaxWithAspNetCore\AjaxWithAspNetCore.csproj", "{BFE146D4-AB6D-4AC7-98D6-F18B898AF683}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,8 +47,15 @@ Global
 		{81150737-9D52-4F8E-89E3-1A8B3630BE71}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{81150737-9D52-4F8E-89E3-1A8B3630BE71}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{81150737-9D52-4F8E-89E3-1A8B3630BE71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFE146D4-AB6D-4AC7-98D6-F18B898AF683}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFE146D4-AB6D-4AC7-98D6-F18B898AF683}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFE146D4-AB6D-4AC7-98D6-F18B898AF683}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFE146D4-AB6D-4AC7-98D6-F18B898AF683}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8EE5434E-0AB2-4568-B605-A649104E5BF8}
 	EndGlobalSection
 EndGlobal

@@ -1,0 +1,30 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@section Scripts
+{
+    <script src="~/js/Home/Index.js"></script>
+}
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+<ul>
+    <li><a asp-action="IndexSimpleType">IndexSimpleType</a></li>
+    <li><a asp-action="IndexComplexType">IndexComplexType</a></li>
+</ul>
+<div class="container">
+    <form id="form1">
+        <span id="Label1">Enter Temperature : </span>
+        <br />
+        <input type="text" id="TextBox1" />
+        <select id="DropDownList1">
+            <option value="C">Celsius</option>
+            <option value="F">Fehrenheit</option>
+        </select>
+        <br />
+        <input id="Button1" type="button" value="Convert" />
+        <br />
+        <span id="lblResult" style="font-weight:bold;color:red"></span>
+    </form>
+</div>

@@ -1,11 +1,29 @@
-﻿using CallingActionMethodUsingAjax.Models;
-using System.Web.Mvc;
+﻿using AjaxWithAspNetCore.Models;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
+using Newtonsoft.Json;
+using System.Diagnostics;
 
-namespace CallingActionMethodUsingAjax.Controllers
+namespace AjaxWithAspNetCore.Controllers
 {
     public class HomeController : Controller
     {
-        public ActionResult Index() => View();
+        private readonly ILogger<HomeController> _logger;
+
+        public HomeController(ILogger<HomeController> logger)
+        {
+            _logger = logger;
+        }
+
+        public IActionResult Index()
+        {
+            return View();
+        }
+
+        public IActionResult Privacy()
+        {
+            return View();
+        }
 
         public ActionResult IndexSimpleType()
         {
@@ -17,8 +35,10 @@ namespace CallingActionMethodUsingAjax.Controllers
             return View();
         }
 
+        [HttpPost]
         public JsonResult ConvertSimpleType(decimal t, char scale)
         {
+            _logger.LogDebug($"t:{t},scale:{scale}");
             switch (scale)
             {
                 case 'C':
@@ -32,9 +52,11 @@ namespace CallingActionMethodUsingAjax.Controllers
             return Json(t);
         }
 
+        [HttpPost]
         public JsonResult ConvertComplexType(TemperatureData data)
         {
             TemperatureData resultData = new TemperatureData();
+            _logger.LogDebug($"data:{JsonConvert.SerializeObject(resultData)}");
             switch (data.Scale)
             {
                 case 'C':
@@ -48,6 +70,12 @@ namespace CallingActionMethodUsingAjax.Controllers
                     break;
             }
             return Json(resultData);
+        }
+
+        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+        public IActionResult Error()
+        {
+            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
     }
 }
