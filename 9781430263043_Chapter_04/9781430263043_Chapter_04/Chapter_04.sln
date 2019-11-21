@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.87
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdvancedTechniques", "AdvancedTechniques\AdvancedTechniques.csproj", "{9E4D35E2-E2C0-4603-A046-3DB04AB74414}"
 EndProject
@@ -14,6 +14,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyboardEvents", "KeyboardEvents\KeyboardEvents.csproj", "{8ACBA0E5-E9F0-42CA-9807-8D84BFB39534}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MouseEvents", "MouseEvents\MouseEvents.csproj", "{2A2F9B81-418F-4E50-8365-F8ABAE9821DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCoreEvents", "AspNetCoreEvents\AspNetCoreEvents.csproj", "{445F3300-1976-4BC6-A4BB-3A29AC4BB5B0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,8 +47,15 @@ Global
 		{2A2F9B81-418F-4E50-8365-F8ABAE9821DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A2F9B81-418F-4E50-8365-F8ABAE9821DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A2F9B81-418F-4E50-8365-F8ABAE9821DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{445F3300-1976-4BC6-A4BB-3A29AC4BB5B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{445F3300-1976-4BC6-A4BB-3A29AC4BB5B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{445F3300-1976-4BC6-A4BB-3A29AC4BB5B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{445F3300-1976-4BC6-A4BB-3A29AC4BB5B0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {69B7F996-67EC-4CF9-9BDD-87E9A83E4DF2}
 	EndGlobalSection
 EndGlobal
