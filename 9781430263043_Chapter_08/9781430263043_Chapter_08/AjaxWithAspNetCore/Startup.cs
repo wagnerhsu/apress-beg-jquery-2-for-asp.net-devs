@@ -40,7 +40,7 @@ namespace AjaxWithAspNetCore
             app.UseStaticFiles();
 
             app.UseRouting();
-
+            app.UseCors();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>

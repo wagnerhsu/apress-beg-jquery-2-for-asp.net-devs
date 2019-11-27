@@ -53,6 +53,31 @@ namespace AjaxWithAspNetCore.Controllers
         }
 
         [HttpPost]
+        public JsonResult ConvertToString(string data)
+        {
+            return Json(data);
+        }
+        [HttpPost()]
+        public JsonResult ConvertComplexTypeFromBody(TemperatureData data)
+        {
+            TemperatureData resultData = new TemperatureData();
+            _logger.LogDebug($"data:{JsonConvert.SerializeObject(resultData)}");
+            switch (data.Scale)
+            {
+                case 'C':
+                    resultData.Value = (data.Value * 1.8m) + 32;
+                    resultData.Scale = 'F';
+                    break;
+
+                case 'F':
+                    resultData.Value = (data.Value - 32) / 1.8m;
+                    resultData.Scale = 'C';
+                    break;
+            }
+            return Json(resultData);
+        }
+
+        [HttpPost]
         public JsonResult ConvertComplexType(TemperatureData data)
         {
             TemperatureData resultData = new TemperatureData();

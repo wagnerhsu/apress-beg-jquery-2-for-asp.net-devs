@@ -18,3 +18,25 @@
         });
     });
 });
+
+$(() => {
+    $("#btnMethod1").click(function (evt) {
+        location.href = "/home/index";
+    });
+});
+
+
+$(() => {
+    $("#btnMethod2").click(function (evt) {
+        $.ajax({
+            type: "POST",
+            url: "/Home/Index",
+            success: function (data) {
+                location.href = "/home/index";
+            },
+            error: function (_jqXHR, _status, error) {
+                console.log(error);
+            }
+        });
+    });
+});

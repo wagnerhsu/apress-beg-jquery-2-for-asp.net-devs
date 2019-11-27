@@ -5,10 +5,7 @@
 {
     <script src="~/js/Home/Index.js"></script>
 }
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+
 <ul>
     <li><a asp-action="IndexSimpleType">IndexSimpleType</a></li>
     <li><a asp-action="IndexComplexType">IndexComplexType</a></li>
@@ -28,3 +25,9 @@
         <span id="lblResult" style="font-weight:bold;color:red"></span>
     </form>
 </div>
+
+<button id="btnMethod1">Method 1 using ajax Promise interface</button>
+<button id="btnMethod2">Method 2 standard ajax call</button>
+<button id="btnMethod3">Method 3 call anything</button>
+<button id="btnMethod4">Method 4 call JObject</button>
+<button id="btnMethod5">Method 5 call JObject</button>

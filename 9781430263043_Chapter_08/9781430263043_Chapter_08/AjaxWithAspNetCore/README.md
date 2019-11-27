@@ -22,3 +22,8 @@ $.ajax({
 > 1. data中传入的是一个object来模拟一个FormData数据
 > 2. 尽管后端过来的数据为TemperatureData,转换成js格式后属性为value而不是Value
 > 3. 如果是调用webapi的话，一般都是标准的json格式
+
+- 如果是传json数据，`{"value":"12","scale":"C"}`和`value=12&scale=C`是不同的，因此要使用JSON.stringify来格式化一个JavaScript对象
+
+## Reference
+- jQuery ajax api [>>](https://api.jquery.com/jquery.ajax/#jQuery-ajax-url-settings)

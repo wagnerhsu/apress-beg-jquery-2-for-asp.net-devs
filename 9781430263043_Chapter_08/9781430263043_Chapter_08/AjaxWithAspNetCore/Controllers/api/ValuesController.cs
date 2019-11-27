@@ -1,9 +1,9 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using System.Collections.Generic;
-using AjaxWithAspNetCore.Models;
+﻿using AjaxWithAspNetCore.Models;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
+using System.Collections.Generic;
 
 namespace AjaxWithAspNetCore.Controllers.api
 {
@@ -11,11 +11,13 @@ namespace AjaxWithAspNetCore.Controllers.api
     [ApiController]
     public class ValuesController : ControllerBase
     {
-        private ILogger<ValuesController> _logger;
+        private readonly ILogger<ValuesController> _logger;
+
         public ValuesController(ILogger<ValuesController> logger)
         {
             _logger = logger;
         }
+
         [HttpGet]
         public IEnumerable<string> Get()
         {
@@ -41,6 +43,14 @@ namespace AjaxWithAspNetCore.Controllers.api
                     break;
             }
             return resultData;
+        }
+
+        [HttpPost("anything")]
+        public string CallAnything(JObject obj)
+        {
+            var result = obj.ToString(Formatting.Indented);
+            _logger.LogInformation(result);
+            return result;
         }
 
         [HttpPost]
