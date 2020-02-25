@@ -1,5 +1,0 @@
-C:\WagnerGithub\apress\apress-beg-jquery-2-for-asp.net-devs\9781430263043_Chapter_09\9781430263043_Chapter_09\UsingPlugin\bin\UsingPlugin.dll.config
-C:\WagnerGithub\apress\apress-beg-jquery-2-for-asp.net-devs\9781430263043_Chapter_09\9781430263043_Chapter_09\UsingPlugin\bin\UsingPlugin.dll
-C:\WagnerGithub\apress\apress-beg-jquery-2-for-asp.net-devs\9781430263043_Chapter_09\9781430263043_Chapter_09\UsingPlugin\bin\UsingPlugin.pdb
-C:\WagnerGithub\apress\apress-beg-jquery-2-for-asp.net-devs\9781430263043_Chapter_09\9781430263043_Chapter_09\UsingPlugin\obj\Debug\UsingPlugin.dll
-C:\WagnerGithub\apress\apress-beg-jquery-2-for-asp.net-devs\9781430263043_Chapter_09\9781430263043_Chapter_09\UsingPlugin\obj\Debug\UsingPlugin.pdb
